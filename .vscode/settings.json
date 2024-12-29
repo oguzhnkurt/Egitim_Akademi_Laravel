@@ -1,0 +1,5 @@
+{
+    "atlascode.bitbucket.enabled": false,
+    "atlascode.jira.enabled": false,
+    "git.ignoreLimitWarning": true
+}

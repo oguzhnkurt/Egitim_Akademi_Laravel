@@ -1,0 +1,5 @@
+[
+  {"title":"Gelir","subtitle":"TL, (Bin)","ranges":[150,225,300],"measures":[220,270],"markers":[250]},
+  {"title":"Yüzde Hesabından Kar","subtitle":"Yüzde","ranges":[20,25,30],"measures":[21,23],"markers":[26]},
+  {"title":"Çekim Sayıları (Bin)","subtitle":"Ortalama Değer","ranges":[350,500,600],"measures":[100,120],"markers":[550]}
+]

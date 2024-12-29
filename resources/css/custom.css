@@ -1,0 +1,147 @@
+/* Link üzerine gelindiğinde stil */
+.nav-item a.nav-link:hover {
+    color: #ff5722; /* Renk değişimi */
+    transform: scale(1.1); /* Hafifçe büyütme */
+    transition: all 0.3s ease-in-out; /* Geçiş efekti */
+}
+
+/* İkon üzerine gelindiğinde stil */
+.nav-item a.nav-link:hover .fas {
+    color: #ff5722; /* İkon rengi değişimi */
+    transform: scale(1.1); /* İkonu hafifçe büyütme */
+    transition: all 0.3s ease-in-out; /* Geçiş efekti */
+}
+
+/* Özel buton stili */
+.btn-custom {
+    background-color: #007bff; /* Renk değişimi */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3; /* Hover rengi */
+}
+
+/* Özel input stili */
+.input-custom {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px; /* Genişlik */
+    transition: border-color 0.3s ease;
+}
+
+.input-custom:focus {
+    border-color: #007bff; /* Focus rengi */
+    outline: none;
+}
+
+/* Sayfa genel stili */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Sayfa yüksekliği */
+}
+
+.content-wrapper {
+    flex: 1; /* İçeriğin esnemesi */
+}
+
+.navbar-footer {
+    background: #f8f9fa; /* Footer arka planı */
+    padding: 20px; /* İç boşluk */
+    text-align: center; /* Metin ortalama */
+}
+
+/* Özel buton stili */
+.custom-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 15px; /* İç boşluk */
+    background-color: #007bff; /* Arka plan rengi */
+    color: white; /* Yazı rengi */
+    border-radius: 5px; /* Kenar yuvarlama */
+    text-decoration: none; /* Altı çizgisiz */
+    transition: background-color 0.3s; /* Geçiş efekti */
+}
+
+.custom-button:hover {
+    background-color: #0056b3; /* Hover rengi */
+}
+
+.custom-button i {
+    margin-right: 5px; /* İkon ile metin arasına boşluk */
+}
+
+/* Dropdown menüler için simgeler */
+.nav-item-submenu > a::after {
+    content: '\f105'; /* FontAwesome ok simgesi */
+    font-family: 'FontAwesome';
+    float: right;
+    margin-left: 5px;
+}
+
+/* Açık menü simgesi */
+.nav-item-submenu.open > a::after {
+    content: '\f107'; /* FontAwesome ok simgesi */
+}
+
+/* Dropdown menü varsayılan olarak kapalı */
+.nav-group-sub {
+    display: none;
+}
+
+/* Açılmış menü görünümü */
+.nav-item-submenu.open > .nav-group-sub {
+    display: block;
+}
+
+/* Menü simgesi */
+.submenu-indicator {
+    float: right;
+}
+
+/* Responsive tasarım */
+@media (max-width: 768px) {
+    .sidebar-resize-hide {
+        display: none;
+    }
+
+    .sidebar-resize-show {
+        display: inline;
+    }
+}
+
+/* Diğer stil ayarları */
+.sidebar .nav-group-sub {
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.sidebar .nav-item-submenu > .nav-link::after {
+    content: '▼'; /* Ok simgesi */
+    float: right;
+}
+
+.sidebar .nav-group-sub .nav-item {
+    padding: 5px 0;
+}
+
+.sidebar .nav-group-sub .nav-item > .nav-link {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.sidebar .nav-group-sub .nav-item:hover > .nav-link {
+    background-color: #2c3e50;
+    color: #ffffff;
+}
