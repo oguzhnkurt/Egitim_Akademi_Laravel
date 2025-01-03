@@ -1,5 +1,5 @@
-# SezinProject_Laravel
- This project improving with laravel framework and PHP.
+# Egitim_Akademi_Laravel
+ This project improving with laravel framework and Js.
 
 ![Ekran görüntüsü 2024-12-29 200057](https://github.com/user-attachments/assets/0c58e085-9be3-4bcc-8a88-abf980cda802)
 ![Ekran görüntüsü 2024-12-29 200114](https://github.com/user-attachments/assets/47356ace-a258-495b-a534-b16ac89a5991)
